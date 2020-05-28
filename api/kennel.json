@@ -1,0 +1,21 @@
+{
+    "animals": [
+        { "id": 1, "name": "Doodles", "breed": "Poodle"},
+        { "id": 2, "name": "Decker", "breed": "German Shepherd" },
+        { "id": 3, "name": "Esme", "breed": "Pitbull" }
+    ],
+
+    "employees": [
+        { "id": 1, "name": "Bark Wahlberg", "phone": "000-000-0000"},
+        { "id": 2, "name": "Woofgang Puck", "phone": "111-111-1111"}
+    ],
+
+    "locations": [
+        {"id": 1, "name": "North Nashville"},
+        {"id": 2, "name": "South Nashville"}
+    ],
+    
+    "owners": [
+        {"id": 1, "name": "Cruella deVil"}
+    ]
+}
