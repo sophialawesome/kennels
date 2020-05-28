@@ -7,6 +7,10 @@ import LocationCard from "./location/LocationCard";
 import EmployeeCard from "./employee/EmployeeCard";
 import OwnerCard from "./owner/OwnerCard";
 import AnimalList from "./animal/AnimalList"
+import EmployeeList from "./employee/EmployeeList"
+import LocationList from "./location/LocationList"
+import OwnerList from "./owner/OwnerList"
+
 
 const ApplicationViews = () => {
   return (
@@ -21,6 +25,18 @@ const ApplicationViews = () => {
       <Route path="/animals"
         render={(props) => {
           return <AnimalList />
+        }} />
+      <Route path="/employees"
+        render={(props) => {
+          return <EmployeeList />
+        }} />
+      <Route path="/locations"
+        render={(props) => {
+          return <LocationList />
+        }} />
+      <Route path="/owners"
+        render={(props) => {
+          return <OwnerList />
         }} />
     </React.Fragment>
   );

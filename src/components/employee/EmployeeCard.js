@@ -5,9 +5,9 @@ const EmployeeCard = () => {
     <div className="card">
       <div className="card-content">
         <h3>
-          Name: <span className="card-employee-name">Doodles</span>
+          Name: <span className="card-employee-name">Bark Wahlberg</span>
         </h3>
-        <p>Breed: Poodle</p>
+        <p>Phone Number: 000-000-0000</p>
       </div>
     </div>
   );
