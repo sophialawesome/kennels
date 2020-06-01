@@ -21,9 +21,11 @@ const AnimalList = () => {
     }, []);
     
     const deleteAnimal = id => {
+        console.log(id)
         AnimalManager.delete(id)
             .then(() => AnimalManager.getAll().then(setAnimals));
     };
+
     
     // Finally we use map() to "loop over" the animals array to show a list of animal cards
     return (
