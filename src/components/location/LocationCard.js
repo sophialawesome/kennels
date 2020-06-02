@@ -6,7 +6,7 @@ const LocationCard = props => {
     <div className="card">
       <div className="card-content">
        <span> {props.location.name} </span>
-       <button type="button" onClick={() => props.deleteAnimal(props.location.id)}>Delete Location</button>
+       <button type="button" onClick={() => props.deleteLocation(props.location.id)}>Close Location</button>
         <Link to={`/locations/${props.location.id}`}>
           <button>Details</button>
         </Link>

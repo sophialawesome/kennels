@@ -20,11 +20,17 @@ const LocationList = () => {
     getLocations();
   }, []);
 
+  const deleteLocation = id => {
+    LocationManager.delete(id)
+        .then(() => LocationManager.getAll().then(setLocations));
+};
+
   // Finally we use map() to "loop over" the locations array to show a list of animal cards
   return(
     <div className="container-cards">
       {locations.map(location =>
-        <LocationCard key={location.id} location={location} />
+        <LocationCard key={location.id} location={location} 
+        deleteLocation={deleteLocation}/>
       )}
     </div>
   );
