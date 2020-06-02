@@ -49,7 +49,7 @@ const ApplicationViews = () => {
         return <LocationList />
       }} />
       <Route path="/locations/:locationId(\d+)" render={(props) => {
-        // Pass the animalId to the AnimalDetailComponent
+        // Pass the locationId to the LocationDetailComponent
         return <LocationDetail locationId={parseInt(props.match.params.locationId)} />
       }} />
       <Route path="/owners"
