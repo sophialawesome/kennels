@@ -8,6 +8,7 @@ import LocationList from "./location/LocationList"
 import OwnerList from "./owner/OwnerList"
 import AnimalDetail from "./animal/AnimalDetail";
 import LocationDetail from "./location/LocationDetail"
+import AnimalForm from './animal/AnimalForm'
 
 
 const ApplicationViews = () => {
@@ -22,7 +23,7 @@ const ApplicationViews = () => {
       />
       {/* Make sure you add the `exact` attribute here */}
       <Route exact path="/animals" render={(props) => {
-        return <AnimalList />
+        return <AnimalList {...props} />
       }} />
       <Route path="/animals/:animalId(\d+)" render={(props) => {
         // Pass the animalId to the AnimalDetailComponent
