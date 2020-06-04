@@ -25,6 +25,10 @@ const ApplicationViews = () => {
       <Route exact path="/animals" render={(props) => {
         return <AnimalList {...props} />
       }} />
+     
+      <Route path="/animals/new" render={(props) => {
+        return <AnimalForm {...props} />
+      }} />
       <Route path="/animals/:animalId(\d+)" render={(props) => {
         // Pass the animalId to the AnimalDetailComponent
         return <AnimalDetail animalId={parseInt(props.match.params.animalId)} />

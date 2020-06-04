@@ -1,14 +1,39 @@
 {
   "animals": [
     {
-      "id": 1,
-      "name": "Doodles",
-      "breed": "Poodle"
+      "name": "Roxanne ",
+      "breed": "Afghan Hound",
+      "id": 1
     },
     {
-      "id": 4,
-      "name": "Bjärk",
-      "breed": "Icelandic Sheepdog"
+      "name": "Joe",
+      "breed": "German Shepherd",
+      "id": 2
+    },
+    {
+      "name": "Bryan",
+      "breed": "Great Dane",
+      "id": 3
+    },
+    {
+      "name": "Zane",
+      "breed": "Siberian Husky",
+      "id": 4
+    },
+    {
+      "name": "Sage",
+      "breed": "Bichon Frise",
+      "id": 5
+    },
+    {
+      "name": "Madi",
+      "breed": "Cavalier King Charles Spaniel",
+      "id": 6
+    },
+    {
+      "name": "Sophia",
+      "breed": "Dachshund",
+      "id": 7
     }
   ],
   "employees": [
